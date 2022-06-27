@@ -15,7 +15,7 @@ public class CalculateTest {
   public void testave() {
     Calculate calculate = new Calculate();
     double expected = 2.5;
-    assertEquals(expected, calculate.ave(calculate.sum(2, 3), 2), 0.01);
+    assertEquals(expected, calculate.ave(calculate.sum(2, 3),2), 0.01);
   }
 
   @Test
