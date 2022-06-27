@@ -14,7 +14,7 @@ on:
     branches: [ "main" ]
 
 permissions:
-  contents: read
+  contents: read 
 
 jobs:
   build:
@@ -32,6 +32,6 @@ jobs:
       run: chmod +× gradlew
     - name: Build with Gradle
       run: ./gradlew build
-      uses: gradle/gradle-build-action@67421db6bd0bf253fb4bd25b31ebb98943c375e1
-      with:
-        arguments: build
+      # uses: gradle/gradle-build-action@67421db6bd0bf253fb4bd25b31ebb98943c375e1
+      #with:
+      #  arguments: build
