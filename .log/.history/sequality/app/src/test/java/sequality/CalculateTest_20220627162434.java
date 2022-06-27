@@ -31,11 +31,4 @@ public class CalculateTest {
     int expected = 25;
     assertEquals(expected, calculate.sum3(1, 10));
   }
-
-  @Test
-  public void testSum4() {
-    Calculate calculate = new Calculate();
-    int expected = 30;
-    assertEquals(expected, calculate.sum4(1, 10));
-  }
 }

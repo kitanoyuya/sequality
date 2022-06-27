@@ -5,9 +5,9 @@ public class Calculate {
     return x + y;
   }
 
-  public double ave(double x,double y) {
+  public double ave(double x) {
 
-    return x / y;
+    return x / 2.0;
 
   }
 
