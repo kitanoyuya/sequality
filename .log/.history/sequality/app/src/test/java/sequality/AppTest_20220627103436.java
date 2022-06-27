@@ -14,7 +14,7 @@ public class AppTest {
   }
 
   public void testAppReternHelloWorld() {
-    App classUnderTest = new App();
-    assertEquals("Hello World!", classUnderTest.getGreeting());
+    App classUnderTest = ner App();
+    assertEquals("Hello World!",classUnderTest.getGreeting());
   }
 }
